@@ -26,7 +26,6 @@ if (isset($_GET['keyword'])) {
     $keyword = '';
 }
 
-// test
 // Redirect to homepage if keyword is empty
 if (empty($keyword)) {
     header('Location: index.php');
